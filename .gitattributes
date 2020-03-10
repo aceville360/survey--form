@@ -1,3 +1,43 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<html lang ="en">
+<head>
+</head>
+<body>
 <h1 id ="Tell me About music"</h1>
+<p id ="description"> This is a survey where you can tell us about the music you're inspired by.
+</p>
+<form id = "survey-form">
+<label id="name-label">Name:</label>
+Name: <input type="text" name="name" id= "name" required placeholder="First name"></input><br>
+<label id="email-label">email:</label>
+Name: <input type="email" name="name" id= "email" required placeholder="your email address"></input><br>
+<label id="number-label">Number:</label>
+Name: <input type="number" name="name" id= "number" min="0" max="10" required placeholder="$"></input><br>
+
+<select id="dropdown" name="genre">
+  <option value="rap">rap</option>
+  <option value="hippop">hipop</option>
+  <option value="house">rock</option>
+  <option afrobeat="audi">afrobeat</option>
+</select>
+<br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+<textarea placeholder="Additional comments">
+<input type= "Submit">
+</form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
